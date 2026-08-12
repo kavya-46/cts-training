@@ -1,0 +1,61 @@
+.main{
+    width: 1300px;
+    height: 200px;
+    background-color: mediumpurple;
+font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+border: 4px solid rgb(25, 131, 150);
+}
+.row1{
+    width: 1300px;
+    height: 100px;
+    color:darkblue;
+    font-size:30px;
+    font-weight: bolder;
+    font-style:italic ;
+   /* text-decoration: line-through; */
+
+    text-align: center;
+    background-color: lightpink;
+    text-transform: capitalize;
+    word-spacing: 25px;
+    letter-spacing: 10px;
+}
+
+.row2{
+    font-size: 16px;
+    width: 1300px;
+    height: 50px;
+    background-color: cadetblue;
+}
+
+.row3{
+    width: 250px;
+    height: 200px;
+    background-color: crimson;
+}
+.row1c1 {
+    width: 205px;
+    height: 60px;
+    float: left;
+    background-color: antiquewhite;
+
+}
+
+.row1c2{
+    width: 200px;
+    height: 50px;
+    float: left;
+    background-color: cornflowerblue;
+}
+.row3left{
+    width: 250px;
+    height: 200px;
+    float: left;
+    background-color: beige;
+}
+.row3right{
+    width:750px;
+    height: 200px;
+    float: left;
+    background-color: chartreuse;
+}

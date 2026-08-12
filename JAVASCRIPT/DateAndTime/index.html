@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Data and Time</title>
+</head>
+<body bgcolor="aqua">
+    <center>
+        <h1>Data and Time in JAVASCRIPT</h1>
+        <script>
+            var today= new Date();
+            document.write(today+"</br>");
+            
+            var day = today.getDate();
+            var month = today.getMonth()+1;
+            var year = today.getFullYear();
+
+            document.write(day+"/"+month+"/"+year+"</br>");
+
+            var hour = today.getHours();
+            var minute = today.getMinutes();
+            var secs = today.getSeconds();
+
+            document.write(hour+":"+minute+":"+secs);
+        </script>
+    </center>
+</body>
+</html>

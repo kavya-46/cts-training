@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>DOM</title>
+</head>
+<body bgcolor="pink">
+    <h1>DOM in JS</h1>
+    <script>
+document.write("hello");
+function getCube() {
+    var num = document.getElementById("num").value;
+    alert("the answer is "+num*num*num);
+
+}
+    </script>
+
+    <form>
+Enter Num: <input type="text" id="num" >
+<br/>
+<input type="button" value="Find Cube" onclick="getCube()">
+
+    </form>
+</body>
+</html>

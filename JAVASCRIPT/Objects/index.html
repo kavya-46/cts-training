@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body bgcolor="indigo" text="yellow">
+    <center><h1>Objects in JavaScript</h1></center>
+    <script>
+        //entity value objects
+        //can be made using 3 ways
+//1st method
+        var stu1= {rno:9, name:"kavya",branch:"maths"}
+        document.write(stu1.rno+" "+stu1.name+" "+stu1.branch+" ");
+
+//2nd method
+var emp = new Object();
+emp.id = 112;
+emp.name = "jayaram";
+emp.salary= 5000000;
+document.write(emp.id+" "+emp.name+" "+emp.salary+"  ");
+
+//3rd method
+function student(rno,name,address,branch){
+this.rno = rno;
+this.name= name;
+this.address=address;
+this.branch= branch;
+}
+var student2 = new student(9,"konduru","bbsr","cse");
+document.write(student2.rno+ " "+student2.name+" "+student2.address+" "+student2.branch);
+    </script>
+</body>
+</html>

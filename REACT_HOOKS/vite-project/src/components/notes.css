@@ -1,0 +1,19 @@
+
+.note{
+    border: 1px solid plum;
+    padding: 3rem;
+    font-size: 2 rem;
+    color: peachpuff;
+    height: 10rem;
+background-color: chocolate;
+}
+
+.high{
+background-color: aquamarine;
+}
+.medium{
+background-color: coral;
+}
+.low{
+background-color: cornflowerblue;
+}

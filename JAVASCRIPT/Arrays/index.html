@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Arrays</title>
+</head>
+<body bgcolor="violet">
+    <center><h1>Arrays in javascript</h1></center>
+    <script>
+        //by array literal
+        var employee = [1,2,3,4,5,6,11];
+        var names=["kavya","jayaram","sagar","bhanu"]
+        for(i=0;i<names.length;i++) {
+            document.write(names[i]+"<br/>");
+        }
+
+        //Array directly(new keyword)
+        var student = new Array();
+        student[0] = "lolakshi";
+        student[1] ="Amul";
+        student[2] ="bujji";
+        student[3]="cutie";
+        
+        var i=0;
+        while(i<student.length){
+            document.write(student[i]+"<br/>");
+            i++;
+        }
+
+        //array constructor
+var emp = new Array("ravi","abhi","ramu","kunnu");
+for(i=0;i<emp.length;i++) {
+    document.write(emp[i]+"<br/>");
+}
+    </script>
+</body>
+</html>

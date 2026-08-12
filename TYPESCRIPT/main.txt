@@ -1,0 +1,143 @@
+getting started with TS
+
+create - fileName.ts
+
+compile - tsc fileName.ts
+
+it will create js file from ts file
+fileName.js 
+
+Features:
+cross platform:
+object oriented langauge: class interface module
+
+static type checking:
+
+optional static typing:
+var num: number ="string" -->it will show error
+var num: number=10
+
+DOM manipulation
+
+ES6 class interface 
+advantages: open source
+run on any browser
+ts code is converted into js file
+we can create both frontend and backend with this
+we can convert any js file to ts file
+
+
+
+VAR vs LET vs CONST
+variable is a container which can hold data
+typescript follows the same rules as javascript for variable declartion
+js is not a type lang it mean we cannot specify the type of a variable such as number, string etc
+
+ways :
+1. both type and intial value
+2. only the type
+3. only the intial value
+4. wihtout type and intial value
+
+
+VAR:
+the variable declared using var available wihtout function.
+if we declare them outside the function then they are available every where 
+they are called glable
+
+if we define them inside code block they are 
+still scoped to the enclosed function
+
+let keyword we can access block of code
+we can update or redefine a var variable
+the let or const variable we cannot be redeclare or updated within the scope.
+
+constant keyword 
+cannot change its value
+
+DATA TYPES:
+two types:
+built in - number, void , string, null, boolean
+user-defined - array, class, tuple, interface, function
+
+number: any type of data type
+
+
+Operators in JS :
+symbol : +,-,*,/,%, ++, --,**
+assignment : =,+=,-=,/=, *=, %=
+relational/comparison Operators: ==, !=, !==, not equal or not equal types,>,<,>=,<=,ternary opr
+=== : equal value or not equal types
+logical operator
+
+String Methods:
+
+conditional statements
+- if 
+- ifelse
+- ternary opr
+- switch case
+
+LOOP STATEMENTS IN typescript
+while
+do while
+for
+
+break
+continue
+
+
+ARRAYS in typescript
+special type of data types, which can store multiple values of
+differeent data types sequentially using a special syntax
+
+2 types:
+single dimensional 
+two dimensional
+type1: 
+var fruit:string[]=["apple","mango","banana"];
+
+Tuples:
+new data type 
+multiple set of values of different data types
+
+
+//types of functions 
+// arrow function overloading
+// rest parameters in typescript
+//functions are the primary blocks of any program
+
+adv :
+-code reusability
+-less coding
+-easy to debug
+
+two types of functions
+- named functions- declare an call a function by its given name
+- anonymous functions- one which is defined as an expression
+- this expression is stored in a variable
+- the function itself doesnot have a name
+- this functions are invoked using the varibale name
+that the function is stored in.
+
+fucntional parameters- 
+optional
+default
+
+rest parameters in typescript-
+enables fucntions to handle an unlimited no 
+of arguements by grouping them into an array
+
+
+Syntax
+function function_name(...rest: type[]) {
+  // Type of the is the type of the array. 
+}
+
+
+function sum(...numbers: number[]): number {
+  return numbers.reduce((total, num) => total + num, 0);
+}
+
+console.log(sum(1, 2, 3));
+console.log(sum(10, 20));

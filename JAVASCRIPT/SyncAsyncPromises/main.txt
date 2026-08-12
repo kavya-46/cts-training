@@ -1,0 +1,25 @@
+Real life example:
+two frnds : rahul and ravi
+rahul promises to bring movie 
+
+promise states:
+pending - i'll bring the tickets
+resolve - promise is succesful
+rejected- sorry!not available
+
+promise - javaScript object that handles async oprs
+3 states- pending, resolved, rejected
+
+syntax:
+new promise(resolve,reject) => {
+    //async task
+    //resolve(result) -> if succesful
+    // reject(error) -> if failed
+} );
+
+Methods:
+.then() - success
+.catch() - error
+.finally() - always runs(after then or catch)
+
+prepareFood() -> eatFood() -> goToSchool()

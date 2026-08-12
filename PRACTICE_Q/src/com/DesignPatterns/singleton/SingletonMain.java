@@ -1,0 +1,12 @@
+package com.DesignPatterns.singleton;
+
+public class SingletonMain {
+    public static void main(String[] args) {
+        Singleton singleton = new Singleton();
+        Singleton singleton1 = Singleton.getInstance();
+        Singleton singleton2 = Singleton.getInstance();
+
+        singleton1.displayMessage();
+        singleton2.displayMessage();
+    }
+}

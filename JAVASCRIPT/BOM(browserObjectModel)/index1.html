@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>BOM</title>
+</head>
+<body bgcolor="yellow">
+    <center><h1>
+        Browser Object Model in JS
+    </h1>
+
+    <a href="second.html">SecondPage</a>
+    <script>
+window.alert("hi guys");
+confirm("hh");
+var x=window.prompt("who r u");
+document.write(x);
+
+//open("http://www.google.com");
+
+function myfun() {
+open("https://www.geeksforgeeks.org/java/java-8-features-tutorial/");
+}
+//close();
+
+//size property- to know the briwswers size
+var h= window.innerHeight;
+var w = window.innerWidth;
+document.write(w+" "+h)
+
+// function news() {  
+//     alert("hi people");
+// }
+// setInterval(news,1000);
+
+function timeover() {
+    alert("time is over");
+}
+setTimeout(timeover,5000);
+
+
+
+    </script>
+    
+    <input type="button" value="GFG" onclick="myfun()"/>
+
+
+
+</center>
+    
+</body>
+</html>

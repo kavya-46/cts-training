@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Events in Js</title>
+</head>
+<body onload="event1()">
+    <center>
+        <h1>Events in JS</h1>
+        <p id="p1"></p>
+        <input type="button" value="click here" onmouseout="event1()">
+        <input type="text" onfocus="event1()"> <!--o/p =display when we enter the cursor -->
+        <input type="text" onblur="event1()"> <!--shows o/p when we put cursor outside the text box-->
+        <input type="text" onchange="event1()">  <!--o/p shows when we write something in text box-->   
+        <input type="text" onload="event1()"> <!--shows the o/p on the loading of the page-->
+
+
+<form onsubmit="event1()">
+    <input type="text" name="name1">
+    <input type="submit" value="submit"> <!--occurs after we submit the form-->
+</form>
+
+<form onreset="event1()">
+<input type="reset" value="Reset">
+</form>
+
+       
+       <script>
+function event1() {
+    document.getElementById("p1").innerHTML="hello welcome to programming tutorials";
+    document.getElementById("p1").innerHTML=Date();
+    document.getElementById("p1").innerHTML="all values cleared";
+}
+        </script>
+
+    </center>
+
+</body>
+</html>

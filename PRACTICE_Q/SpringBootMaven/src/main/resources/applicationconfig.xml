@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<beans
+        xmlns="http://www.springframework.org/schema/beans"
+       xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+       xsi:schemaLocation="http://www.springframework.org/schema/beans
+       http://www.springframework.org/schema/beans/spring-beans.xsd">
+
+    <bean id = "java" class = "LooseCoupling.Java" />
+    <bean id = "springBoot" class = "LooseCoupling.SpringBoot"/>
+
+    <bean id = "ts" class ="LooseCoupling.TShapedSkills" >
+    <property ref ="java" name ="course"/>
+</bean>
+
+<!--    <bean id="java" class="LooseCoupling.Java" /> &lt;!&ndash;tShapedSkills &ndash;&gt;-->
+<!--    <bean id ="SpringBoot" class ="LooseCoupling.SpringBoot" primary="true"/>-->
+
+
+<!--    <bean id ="ls" class="LooseCoupling.TShapedSkills" autowire="constructor">-->
+<!--    <bean id ="ls" class="LooseCoupling.TShapedSkills" autowire="byType"> &lt;!&ndash; both the objs are eligilble here&ndash;&gt;-->
+
+
+    <!-- there are 2 objs available but spring is confused whom to call-->
+
+    <!-- manually wiring them-->
+  <!--;setter injection,its java object(means object in java Class)&ndash;&gt;-->
+<!--    <constructor-arg ref = "java" name = "course"/>       &lt;!&ndash; using constructor&ndash;&gt;-->
+<!--</bean>-->
+
+</beans>

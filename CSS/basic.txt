@@ -1,0 +1,65 @@
+h1{
+    font-size:30px;
+
+    fontsize- property
+    30px - value
+}
+
+h1- the html element that you want to style
+property- the attribute you want to change(like font,color, etc)
+value- the specific style you want to apply to thte property
+
+
+COLOR property
+
+the css property defines the txt color or foregorund color in a html element
+
+ENHANCEMENT- used to empphasize sections and locate webpage aesthetics
+
+
+INCLUDING STYLES(INLINE STYLING):
+APPLIES DIECTLY TO HTML ELEMENTS USING STYLE ATTRIBUTES.
+
+DOM- document of object model
+helps in understanding the hierarchical structure of a webpage, crucial for applying targeted CSS styles.
+
+
+MDN Documentation
+- for official resources for CSS, visit developer.mozilla.org
+
+BROWSER TOOLS-
+- allow real-time editing html/CSS
+-usefull for debugging and testing
+-highlights selected ELEMENTS
+
+SELECTORS: element SELECTORS
+selects HTML elements based on their tag name
+syntax: simply use the elements name
+uniform styling: helps in applying consistent styles to all instances
+easy for use
+
+UNIVERSAL selector:
+
+id property: assigns a unique identifier to a single HTML element (#)
+class property: allows grouping of multiple HTML elements to style them collectively
+Reusable classes , (.)
+specificity and targeting
+
+DESCENDANT SELECTORS
+styles elements nested within a specified element.
+syntax:separate selectors with spacces.
+hierarchy based-
+specific styling-
+
+
+Text transform in CSS- to lower or uppercase, capitilize
+
+
+CSS BOX model property:
+-border -left, right
+-margin - 
+-padding
+
+PUTTING IMAGE IN BACKGROUND:
+background-image
+BACKGROUND

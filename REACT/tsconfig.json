@@ -1,0 +1,8 @@
+{ 
+  "files": [],
+  "references": [
+    { "path": "./tsconfig.app.json" },
+    { "path": "./tsconfig.node.json" }
+  ]
+}
+//we write the rules of our browser in this file

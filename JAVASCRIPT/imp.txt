@@ -1,0 +1,7 @@
+variables-
+1)local variables
+2)global variables
+
+bom
+history object(back,forward)
+window object

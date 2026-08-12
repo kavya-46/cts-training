@@ -1,0 +1,10 @@
+.hoverBox{
+    width: 300px;
+    height: 100px;
+    background-color: darkorchid;
+    transition: 2s;
+}
+.hoverBox:hover{
+    background-color: gold;
+    color: antiquewhite;
+}

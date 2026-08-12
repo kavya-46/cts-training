@@ -1,0 +1,6 @@
+TYPESCRIPT+REACT
+with static type checking, you get to learn
+about potential bugs as you are typing the code
+than heading to the browser and figuring out at runtime
+
+makes maintainence and refactoring of large code bases much easier.

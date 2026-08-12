@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Running Time</title>
+</head>
+<body bgcolor="pink">
+    <center>
+        <h1>Date and Time Running Time</h1>
+        <span id="kavya"></span>
+        <script>
+            function getTime(){
+                var today = new Date();
+                var h = today.getHours();
+                var m = today.getMinutes();
+                var s = today.getSeconds();
+                document.getElementById("kavya").innerHTML=h+":"+m+":"+s;
+             //   document.write(h+":"+m+":"+s)
+setInterval("getTime()",1000);
+            }
+           getTime(); 
+        </script>
+    </center>
+    
+</body>
+</html>
